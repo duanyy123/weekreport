@@ -1,9 +1,9 @@
-#git生成周报
-##必要结构
-###运行文件：generateWeekReport.exe
-###配置文件：config/config
+# git生成周报
+## 必要结构
+### 运行文件：generateWeekReport.exe
+### 配置文件：config/config
 
-####config参数说明：
+#### config参数说明：
 
  - `root`为git程序目录的父目录，多个git程序如果在不同目录，使用英文逗号分隔【结尾不用斜杠】
  - `direct`各个项目的根目录，前后无需加斜杠，多个项目用英文逗号分隔
@@ -19,7 +19,7 @@
 
 格式一定要为a=b，不要有空格
 
-####使用说明：
+#### 使用说明：
 1. 按照上述说明配置周报内容
 2. 运行generateWeekReport.exe
 3. 选择需要的项目，可选多个，输入如：ab
@@ -27,7 +27,7 @@
 5. 其他：如果遇到报错，请首先检查配置，如非配置问题，请联系作者
 
 
-####扩展说明：
+#### 扩展说明：
 1. 注意config文件的位置（生成后相对位置变化，注意在生成的exe文件外部加一个config/config文件）
 1. 自己生成请先在eclipse打包jar包，再用exe4j打包成exe文件，注意把所有libs文件夹下内容配置给exe4j
 1. exe4j参考下载地址[https://exe4j.apponic.com](https://exe4j.apponic.com "https://exe4j.apponic.com")
