@@ -93,15 +93,15 @@ public class SendMailUtil {
 	
     public static void main(String[] args){
     	EmailData emailData = new EmailData();
-    	emailData.from = "duanyuying@yonxin.com";
-    	emailData. pwd = "3344ybfl";
-    	String to = "duanyuying@yonxin.com";
+    	emailData.from = "a@123.com";
+    	emailData. pwd = "邮箱密码";
+    	String to = "a@123.com";
         String[] tos = new String[] {to};
         emailData.tos = tos;
-        emailData.filePath="D:\\资料\\周报\\2020\\2020-02-03周报-用心科技段钰莹.xls";
-        emailData.fileName="2020-02-03周报-用心科技段钰莹.xls";
-        emailData.title="2020-02-03日报-用心科技段钰莹";
-        emailData.content="2020-02-03日报-用心科技段钰莹";
+        emailData.filePath="D:\\a.xls";
+        emailData.fileName="a.xls";
+        emailData.title="标题";
+        emailData.content="内容";
         try {
         	sendEmail(emailData);
         }catch(Exception e) {
